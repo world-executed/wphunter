@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           chmod -R 777 attack.sh
-          ./attack.sh --url==https://www.macqj.com --user=imacqj --wordlist=password.txt
+          ./attack.sh --url=https://www.macqj.com --user=imacqj --wordlist=password.txt
